@@ -1,0 +1,132 @@
+
+
+
+body{
+    background-image: linear-gradient(to right, rgb(250, 121, 121),rgb(255, 208, 120),rgb(245, 245, 179),rgb(103, 165, 103),rgb(104, 104, 234),rgb(157, 116, 185),rgb(223, 190, 223));
+    /* background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); */
+    font-family: "Lucida Handwriting", cursive;
+    /* font-family: verdana; */
+    margin: 6%;
+    font-size: 1em;
+}
+
+a{
+    /* font-family: "Times New Roman", serif; */
+    font-family: verdana;
+    font-style: italic;
+    font-size:0.80rem;
+    background-color: rgb(120, 200, 120);
+    border: 1px outset white;
+    padding: .5ch 2ch .5ch 2ch;
+    cursor: pointer;
+ 
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: underline;}
+a:active { text-decoration: none; }
+
+
+.zoom{
+    transition: transform .5s; 
+}
+
+.zoom:hover { 
+    -ms-transform: scale(1.3); /* IE 9 */
+    -webkit-transform: scale(1.3); /* Safari 3-8 */
+    transform: scale(1.3); 
+}
+
+
+a.yellow{
+    font-family: verdana;
+    font-style: normal;
+    font-size:0.80rem;
+    background-color: yellow;
+    border: 1px outset white;
+    padding: .5ch 2ch .5ch 2ch;
+    cursor: pointer;
+}
+
+.smallZoom{
+    transition: transform 1s; 
+}
+.smallZoom:hover { 
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
+
+
+
+
+
+img{
+}
+
+.lineThru{
+
+    text-decoration: line-through;
+    display: inline;
+}
+
+.main{
+    /* margin-top: 10%; */
+    font-size: 1.5rem;
+    /* width: 90%; */
+
+}
+
+.grid{
+    display: grid;
+    gap: 1rem;
+    justify-content: center;
+    justify-items: center;
+    /* margin-top: 5%; */
+    text-align: center;
+    
+
+    /* justify-content: center;
+    gap: 4px;
+    align-content: center;
+    grid-auto-flow: column; */
+}
+
+.details{
+    font-size: 1.25rem;
+    justify-text: center;
+    /* display: grid; */
+    /* gap: 1rem; */
+    /* justify-content: center */
+}
+
+.previousWork{
+    color: white;
+    font-size: 1rem;
+    gap: .5rem;
+
+}
+
+.email{
+    font-size: 1rem;
+
+}
+
+.rainbow{
+    filter: hue-rotate(0deg);
+
+    transition: filter 1s; 
+    display: inline;
+
+}
+
+.rainbow:hover{
+    color: rgb(221, 221, 67);
+    -webkit-animation: hue 3s infinite;
+}
+
+@-webkit-keyframes hue {
+    0%  { -webkit-filter: hue-rotate(0deg); }
+    100% { -webkit-filter: hue-rotate(360deg); }
+  }
