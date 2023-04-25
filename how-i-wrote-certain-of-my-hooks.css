@@ -1,6 +1,13 @@
 
 
 
+:root{
+    --dark-color: red;
+}
+
+/* example: */
+/* background-color: var(--dark-color); */
+
 body{
     background-image: linear-gradient(to right, rgb(250, 121, 121),rgb(255, 208, 120),rgb(245, 245, 179),rgb(103, 165, 103),rgb(104, 104, 234),rgb(157, 116, 185),rgb(223, 190, 223));
     /* background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); */
@@ -22,6 +29,21 @@ a{
  
 }
 
+article{
+    font-size: .8em;
+}
+
+summary{
+    font-size: .5em;
+    
+}
+
+
+img{
+    
+}
+
+
 a:link { text-decoration: none; }
 a:visited { text-decoration: none; }
 a:hover { text-decoration: underline;}
@@ -37,6 +59,8 @@ a:active { text-decoration: none; }
     -webkit-transform: scale(1.3); /* Safari 3-8 */
     transform: scale(1.3); 
 }
+
+
 
 
 a.yellow{
@@ -61,10 +85,6 @@ a.yellow{
 
 
 
-
-img{
-}
-
 .lineThru{
 
     text-decoration: line-through;
@@ -76,6 +96,11 @@ img{
     font-size: 1.5rem;
     /* width: 90%; */
 
+}
+
+.title{
+    font-size: 1.5rem;
+    text-decoration: underline;
 }
 
 .grid{
@@ -103,7 +128,7 @@ img{
 
 .previousWork{
     color: white;
-    font-size: 1rem;
+    font-size: 1em;
     gap: .5rem;
 
 }
@@ -117,7 +142,6 @@ img{
     filter: hue-rotate(0deg);
 
     transition: filter 1s; 
-    display: inline;
 
 }
 
