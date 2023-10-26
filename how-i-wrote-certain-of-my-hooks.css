@@ -8,6 +8,21 @@
 /* example: */
 /* background-color: var(--dark-color); */
 
+h1{
+    background-color: whitesmoke;
+    border: 3px black solid;
+    padding: 5px;
+}
+
+h2{
+    font-size: 2.5ch;
+    background-color: aquamarine;
+    width: 200px;
+    margin: auto;
+    border: 3px silver ridge;
+    padding: 6px;
+}
+
 body{
     background-image: linear-gradient(to right, rgb(250, 121, 121),rgb(255, 208, 120),rgb(245, 245, 179),rgb(103, 165, 103),rgb(104, 104, 234),rgb(157, 116, 185),rgb(223, 190, 223));
     /* background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); */
@@ -31,13 +46,23 @@ a{
 
 article{
     font-size: .8em;
+    background-color: navajowhite;
+    border: whitesmoke 3px solid;
 }
 
 summary{
     font-size: .5em;
-    
+    background-color: aquamarine;
+    width: 200px;
+    margin: auto;
+    border: 3px silver ridge;
+    padding: 6px;
 }
 
+
+.links{
+    background-color: azure;
+}
 
 img{
     
